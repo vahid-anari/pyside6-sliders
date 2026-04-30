@@ -1,5 +1,7 @@
 # pyside6-sliders
 
+[![PyPI version](https://badge.fury.io/py/pyside6-sliders.svg)](https://pypi.org/project/pyside6-sliders/)
+
 Reusable PySide6 slider widgets for scientific applications.
 
 Built from real scientific software, these sliders are production-tested and

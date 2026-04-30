@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "pyside6-sliders"
+version = "0.1.0"
+description = "Reusable PySide6 slider widgets for scientific applications"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Vahid Anari", email = "vahid.anari8@gmail.com" }
+]
+keywords = [
+    "pyside6", "qt", "gui", "slider", "range-slider",
+    "scientific", "widgets", "numeric"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: User Interfaces",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.5",
+    "numpy>=1.24",
+    "pyside6-widgets>=0.1.0",
+]
+
+[project.optional-dependencies]
+dev = ["build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/vahid-anari/pyside6-sliders"
+Repository = "https://github.com/vahid-anari/pyside6-sliders"
+Issues = "https://github.com/vahid-anari/pyside6-sliders/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyside6_sliders*"]

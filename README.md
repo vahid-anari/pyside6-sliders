@@ -1,5 +1,17 @@
 # pyside6-sliders
 
+> **This package is no longer maintained.** It has been replaced by
+> [sciwidgets](https://github.com/vahid-anari/sciwidgets) (`pip install sciwidgets`).
+> All sliders (`FloatSlider`, `IntSlider`, `ArraySlider`, `FloatRangeSlider`,
+> `IntRangeSlider`, `MultiVariableSlider`) are now in `sciwidgets.params`:
+>
+> ```python
+> from sciwidgets.params import FloatSlider
+> ```
+>
+> Some arguments have changed; see the
+> [slider docs](https://github.com/vahid-anari/sciwidgets/blob/main/docs/sliders.md).
+
 [![PyPI version](https://badge.fury.io/py/pyside6-sliders.svg)](https://pypi.org/project/pyside6-sliders/)
 
 Reusable PySide6 slider widgets for scientific applications.
